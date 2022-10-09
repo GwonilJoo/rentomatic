@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tox = "*"
+coverage = "*"
+pytest = "*"
+pytest-cov = "*"
+"punch.py" = "*"
+watchdog = "*"
+flake8 = "*"
+sphinx = "*"
+flask = "*"
+pytest-flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
